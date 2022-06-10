@@ -1,0 +1,28 @@
+design a simple vending machine that sells drinks and take only quarters.
+
+All money related operations use cent as unit.
+
+
+design draft:
+
+product / inventory
+	fields:
+	product name
+	product price
+	product repository
+method:
+	getPrice
+	getRepository
+  sell
+  fill
+	
+machine
+	fields:
+		products list
+	
+	methods:
+		buy
+		validProduct 
+		validRepository
+		enoughMoney
+		change
